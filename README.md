@@ -49,7 +49,7 @@ Each algorithm detects a different simplified marker pattern in the sample. The 
 
 The sample API is an existing API that returns details for a sample, identified by it’s name. mini-nucleiq should integrate with the samples API to retrieve sample tissue data (cells).
 
-Base URL: `https://cellsia.github.io/`
+Base URL: `https://raw.githubusercontent.com/cellsia/mini-nucleiq-code-challenge/main/`
 
 View Sample: `GET /mini-nucleiq-code-challenge/samples/{sample}.json`
 
