@@ -14,3 +14,7 @@ class InvalidSampleResponseError(SamplesClientError):
 
 class InvalidAlgorithmNameError(Exception):
     pass
+
+
+class NoAlgorithmsSelectedError(Exception):
+    pass
