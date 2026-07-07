@@ -10,3 +10,7 @@ class SampleNotFoundError(SamplesClientError):
 
 class InvalidSampleResponseError(SamplesClientError):
     pass
+
+
+class InvalidAlgorithmNameError(Exception):
+    pass
