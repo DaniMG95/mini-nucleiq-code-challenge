@@ -30,6 +30,9 @@ dev = [
     "ruff>=0.15.15",
 ]
 
+[project.scripts]
+mini-nucleiq = "mini_nucleiq.main:main"
+
 
 [tool.ruff]
 line-length = 120
